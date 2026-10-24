@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>APEX SQUAD</title>
+
+    
+    <link rel="stylesheet" href="sheet.css">
+</head>
+
+<body>
+
+    <!-- Dark mode switch (pure CSS, no JavaScript) -->
+    <input type="checkbox" id="theme" class="theme-check" aria-label="Dark mode">
+
+    <!-- ================= NAVIGATION ================= -->
+
+    <header>
+        <nav>
+            <div class="nav_content">
+
+                <div class="logo">
+                    <a href="#home">APEX SQUAD</a>
+                </div>
+
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#members">MEMBERS</a></li>
+                    <li><a href="#skills">ACHIEVEMENTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+
+                <!-- Click to switch dark / light mode -->
+                <label for="theme" class="toggle" title="Switch dark / light mode">
+                    <span class="to-dark">🌙 Dark</span>
+                    <span class="to-light">☀️ Light</span>
+                </label>
+
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- ================= HOME ================= -->
+
+    <section class="section" id="home">
+
+        <div class="orb orb_one"></div>
+        <div class="orb orb_two"></div>
+
+        <div class="section_container">
+
+            <div class="content">
+
+                <p class="subtitle">HELLO, WE ARE</p>
+
+                <h1 class="title">
+                    <span>APEX SQUAD</span><br>
+                    AND THE TEAM
+                </h1>
+
+                <p class="description">
+                    Welcome to our college portfolio. We are a team of students
+                    interested in technology, programming, web development,
+                    design, and creative digital projects.
+                </p>
+
+                <div class="action_btns">
+                    <a href="#members" class="hire_me">MEET OUR TEAM</a>
+                   
+                </div>
+
+            </div>
+
+
+            <!-- ================= FIVE PICTURES (click one to open its profile) ================= -->
+
+            <div class="members_preview">
+
+                <a class="member_preview" href="#slide-michael">
+                    <img src="C:\Users\busti\OneDrive\Desktop\image/pic1.jpg" alt="Michael">
+                    <h3>Michael</h3>
+                </a>
+
+                <a class="member_preview" href="#slide-kenneth">
+                    <img src="C:\Users\busti\OneDrive\Desktop\image/pic2.jpg" alt="Kenneth">
+                    <h3>Kenneth</h3>
+                </a>
+
+                <a class="member_preview" href="#slide-rodnick">
+                    <img src="C:\Users\busti\OneDrive\Desktop\image/pic3.jpg" alt="Rodnick">
+                    <h3>Rodnick</h3>
+                </a>
+
+                <a class="member_preview" href="#slide-joebert">
+                    <img src="C:\Users\busti\OneDrive\Desktop\image/pic4.jpg" alt="Joebert">
+                    <h3>Joebert</h3>
+                </a>
+
+                <a class="member_preview" href="#slide-jonas">
+                    <img src="C:\Users\busti\OneDrive\Desktop\image/pic5.jpg" alt="Jonas">
+                    <h3>Jonas</h3>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="information" id="about">
+
+        <h2>ABOUT OUR TEAM</h2>
+
+        <p>
+            We are a group of five college students who work together
+            on academic and technology-related projects. Our goal is to
+            develop our skills in programming, web development, creativity,
+            teamwork, communication, and problem solving.
+        </p>
+
+        <p>
+            This portfolio presents our personal information, skills,
+            educational background, projects, and other achievements.
+        </p>
+
+    </section>
+
+
+    <!-- ================= MEMBERS SLIDESHOW ================= -->
+
+    <section class="team" id="members">
+
+        <h2>OUR TEAM MEMBERS</h2>
+        <p class="team_hint">Click the arrows or a name to change profile. On a phone, you can also swipe.</p>
+
+        <div class="slider">
+
+            <!-- Name tabs -->
+            <div class="tabs">
+                <a class="tab" href="#slide-michael">Michael</a>
+                <a class="tab" href="#slide-kenneth">Kenneth</a>
+                <a class="tab" href="#slide-rodnick">Rodnick</a>
+                <a class="tab" href="#slide-joebert">Joebert</a>
+                <a class="tab" href="#slide-jonas">Jonas</a>
+            </div>
+
+            <div class="team_container">
+
+
+                <!-- SLIDE 1 : MICHAEL -->
+
+                <article class="member_card" id="slide-michael">
+
+                    <a class="arrow prev" href="#slide-jonas" aria-label="Previous member">&#10094;</a>
+                    <a class="arrow next" href="#slide-kenneth" aria-label="Next member">&#10095;</a>
+
+                    <div class="photo"><img src="C:\Users\busti\OneDrive\Desktop\image/pic1.jpg" alt="Michael"></div>
+
+                    <div class="info">
+                        <p class="counter">1 / 5</p>
+                        <h3>MICHAEL JOHN S. BARROGA</h3>
+                        
+
+                        <div class="details">
+                            <p><strong>Age:</strong> 18</p>
+                            <p><strong>Address:</strong> SanJose, Santo,Tomas Pangasinan</p>
+                            <p><strong>Education:</strong> College Student</p>
+                            <p><strong>Course:</strong> Information Technology</p>
+                            <p><strong>Skills:</strong> Install and configure computer Systems, Set-up Computer Netwroks, Set-up Computer Services </p>
+                            <p><strong>Hobbies:</strong> Basketball, Billiards, cooking, travel</p>
+                            <p class="wide">
+                                <strong>About:</strong>
+                                A college student interested in web development
+                                and creating modern websites.
+                            </p>
+                        </div>
+                    </div>
+
+                </article>
+
+
+                <!-- SLIDE 2 : KENNETH -->
+
+                <article class="member_card" id="slide-kenneth">
+
+                    <a class="arrow prev" href="#slide-michael" aria-label="Previous member">&#10094;</a>
+                    <a class="arrow next" href="#slide-rodnick" aria-label="Next member">&#10095;</a>
+
+                    <div class="photo"><img src="C:\Users\busti\OneDrive\Desktop\image/pic2.jpg" alt="Kenneth"></div>
+
+                    <div class="info">
+                        <p class="counter">2 / 5</p>
+                        <h3>RHEE KENNETH M. BUSTILLOS</h3>
+                        
+                        <div class="details">
+                            <p><strong>Age:</strong> 19</p>
+                            <p><strong>Address:</strong> Lomboy Viliasis Pangasinan</p>
+                            <p><strong>Education:</strong> College Student</p>
+                            <p><strong>Course:</strong> Information Technology</p>
+                            <p><strong>Skills:</strong> Adaptability, Humble, Teamwork</p>
+                            <p><strong>Hobbies:</strong> Volleyball, Gaming, Watching Anime</p>
+                            <p class="wide">
+                                <strong>About:</strong>
+                                A creative student who enjoys designing websites
+                                and learning new technologies.
+                            </p>
+                        </div>
+                    </div>
+
+                </article>
+
+
+                <!-- SLIDE 3 : RODNICK -->
+
+                <article class="member_card" id="slide-rodnick">
+
+                    <a class="arrow prev" href="#slide-kenneth" aria-label="Previous member">&#10094;</a>
+                    <a class="arrow next" href="#slide-joebert" aria-label="Next member">&#10095;</a>
+
+                    <div class="photo"><img src="C:\Users\busti\OneDrive\Desktop\image/pic3.jpg" alt="Rodnick"></div>
+
+                    <div class="info">
+                        <p class="counter">3 / 5</p>
+                        <h3>RODNICK BRYNNE S. REGALADO</h3>
+                        
+                        <div class="details">
+                            <p><strong>Age:</strong> 18</p>
+                            <p><strong>Address:</strong> Laoac, Alcala, Pangasinan</p>
+                            <p><strong>Education:</strong> College Student</p>
+                            <p><strong>Course:</strong> Information Technology</p>
+                            <p><strong>Skills:</strong> Teamwork, Problem-solving, Time management</p>
+                            <p><strong>Hobbies:</strong> Basketball, Online Games</p>
+                            <p class="wide">
+                                <strong>About:</strong>
+                                A student who enjoys programming and solving
+                                technical problems through technology.
+                            </p>
+                        </div>
+                    </div>
+
+                </article>
+
+
+                <!-- SLIDE 4 : JOEBERT -->
+
+                <article class="member_card" id="slide-joebert">
+
+                    <a class="arrow prev" href="#slide-rodnick" aria-label="Previous member">&#10094;</a>
+                    <a class="arrow next" href="#slide-jonas" aria-label="Next member">&#10095;</a>
+
+                    <div class="photo"><img src="C:\Users\busti\OneDrive\Desktop\image/pic4.jpg" alt="Joebert"></div>
+
+                    <div class="info">
+                        <p class="counter">4 / 5</p>
+                        <h3>JOEBERT V. MORENO</h3>
+                        
+                        <div class="details">
+                            <p><strong>Age:</strong> 17</p>
+                            <p><strong>Address:</strong> Sto.Ñino, Santo.Tomas</p>
+                            <p><strong>Education:</strong> College Student</p>
+                            <p><strong>Course:</strong> Information Technology</p>
+                            <p><strong>Skills:</strong> Critical thinking, Self discipline, Patience</p>
+                            <p><strong>Hobbies:</strong> Watching Horror, Gamiing, Travel</p>
+                            <p class="wide">
+                                <strong>About:</strong>
+                                A student interested in user interface design
+                                and creative digital projects.
+                            </p>
+                        </div>
+                    </div>
+
+                </article>
+
+
+                <!-- SLIDE 5 : JONAS -->
+
+                <article class="member_card" id="slide-jonas">
+
+                    <a class="arrow prev" href="#slide-joebert" aria-label="Previous member">&#10094;</a>
+                    <a class="arrow next" href="#slide-michael" aria-label="Next member">&#10095;</a>
+
+                    <div class="photo"><img src="C:\Users\busti\OneDrive\Desktop\image/pic5.jpg" alt="Jonas"></div>
+
+                    <div class="info">
+                        <p class="counter">5 / 5</p>
+                        <h3>JONAS M. DUMLAO</h3>
+                        
+                        <div class="details">
+                            <p><strong>Age:</strong> 18</p>
+                            <p><div>Address:</strong> San Antonio, Arzadon, San Manuel, Pangasinan</p>
+                            <p><strong>Education:</strong> College Student</p>
+                            <p><strong>Course:</strong> Information Technology</p>
+                            <p><strong>Skills:</strong> Networking, Reformating, Troubleshooting</p>
+                            <p><strong>Hobbies:</strong> Reading, Walking at Night, Gaming</p>
+                            <p class="wide">
+                                <strong>About:</strong>
+                                A student who is passionate about web development
+                                and learning different programming technologies.
+                            </p>
+                        </div>
+                    </div>
+
+                </article>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section class="information" id="skills">
+
+        <h2>ACHIEVEMENTS</h2>
+
+        <div class="skills_container">
+
+            <div class="skill">
+                <h3>MICHAEL JOHN</h3>
+                <p>Designing attractive and responsive websites.</p>
+                <p>Creating the structure of websites and </p>
+            </div>
+
+            
+
+            <div class="skill">
+                <h3>KENNETH</h3>
+                <p>Adding interactive features to websites.</p>
+            </div>
+
+            <div class="skill">
+                <h3>RODNICK</h3>
+                <p>Creating clean and user-friendly interfaces.</p>
+            </div>
+
+            <div class="skill">
+                <h3>JOEBERT</h3>
+                <p>Working together to complete projects.</p>
+            </div>
+
+            <div class="skill">
+                <h3>JONAS</h3>
+               <p>.CONDUCT AWARD</p>
+                <p>.WORK IMMERSION AWARD<p>
+                <p>.GOVERNOR'S EXCELLENCE AWARD</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+   
+    
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="information" id="contact">
+
+        <h2>CONTACT INFORMATION</h2>
+
+        <p>
+            <strong>Email:</strong>
+            <a href="mailto:yourteam@email.com">apexsquad335@gmail.com</a>
+        </p>
+
+        <p>
+            <strong>Phone:</strong>
+            <a href="tel:09XXXXXXXXX">09706432353</a>
+        </p>
+
+        <p>
+            <strong>Location:</strong>
+            Philippines
+        </p>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-container">
+
+            &copy; 2026 Code by 
+            <br>
+            Michael • Kenneth • Rodnick • Joebert • Jonas
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
